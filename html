@@ -1,0 +1,62 @@
+<!DOCTYPE html><head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>{Title}</title>
+	<!-- {block:Description}
+    
+
+
+	<meta name="description" content="{MetaDescription}" />
+    {/block:Description} -->
+
+</head>
+
+<body>
+	<div class="header">
+    <h1>&#9775;&#9770;&#9734;{Title}&#9734;&#9770;&#9775</h1>
+    
+    <form>
+    	<input type="button" value="home" onClick="window.location.href='#homepage'">
+        <input type="button" value="button 2" onClick="window.location.href='#button2'">
+        <input type="button" value="button 3" onClick="window.location.href='#button3'">
+        <input type="button" value="button 4" onClick="window.location.href='#button4'">
+    </form>
+
+    </div>
+    
+    <div class="rightSideBar">
+    	{sidebar}
+    </div>
+    
+
+    <div class="leftSideBar">
+	<img src="http://31.media.tumblr.com/85313e562fde927b11aeaf42b3e247e0/tumblr_mubr4jBUgE1sbks06o1_500.png" width="150px"/>        	
+	<p>
+{sidebar}
+        </p>
+    </div>
+   
+
+   	<div class="body">
+	<img src="http://data1.whicdn.com/images/65861898/large.png" height="150px"/>
+	<img src="http://24.media.tumblr.com/38259c59e0da11190e195ade5689a6fa/tumblr_mlbibhC2PR1s8a280o1_1280.png" height="150px"/>
+	<img src="http://media.tumblr.com/3a824f1de6a0d694b37fdb0ab11ad641/tumblr_inline_mq9yzzRsi21qz4rgp.gif" height="150px"/>
+
+    <p>
+	    {paragraph}	
+    </p>
+    </div>
+    
+    
+    
+    <a href="javascript: history.go(-1)">Previous</a>
+    <a href="javascript: history.go(+1)">Next</a>
+    
+    <!-- {block:Pagination}{block:PreviousPage}
+    <a href="{PreviousPage">previous page</a>
+{/block:PreviousPage}
+{block:JumpPagination length="5"}{block:CurrentPage}
+<span class="current_page">{PageNumber}</span>
+-->
+
+</body>
+</html>
