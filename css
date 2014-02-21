@@ -1,0 +1,49 @@
+body {
+	background-image: url(http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=51289245);
+	font-family:"Comic Sans MS", cursive;
+	text-align:center;
+}
+
+div.header {
+	border:solid;
+	background: linear-gradient(#CC66CC,#CCCCFF);
+	opacity:0.7;
+}
+
+h1 {
+	text-shadow:3px 3px #666666;
+	letter-spacing:3px;
+	text-align:center;
+}
+
+div.rightSideBar {
+	float:right;
+	border:2px solid;
+	font-weight:bold;
+	text-align:center;
+	background: linear-gradient(#CCCCFF,#CC66CC);
+	height:500px;
+	width:100px;	
+}
+
+div.leftSideBar {
+	float:left;
+	font-weight:bold;
+	border:2px solid;
+	background: linear-gradient(#CCCCFF,#CC66CC);
+	height:500px;
+	width:100px;
+}
+
+div.body {
+	float:inherit;
+	font-weight:bolder;
+	border:2px solid;
+	background: linear-gradient(#CCCCFF,#CC66CC);
+	height:500px;
+	position:relative;
+	z-index:-3;
+	left:5px;
+	right:7px;
+	opacity:0.8;
+}
